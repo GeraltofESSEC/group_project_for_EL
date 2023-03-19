@@ -1,12 +1,12 @@
 # Ensemble-Learning Group Project
 
-by Congjie AN, Jialin DU, Zeli PAN, Yifan WANG
+by Congjie **AN**, Jialin **DU**, Zeli **PAN**, Yifan **WANG**
 
-This is the ensemble-learning group project of DSBA program, ESSEC & CentraleSupélec. This group project consists of two parts: a kaggle competition to predict Airbnb price in New York and an implementation of decision tree from scratch.
+This is the ensemble-learning group project of DSBA program, ESSEC & CentraleSupélec. This group project consists of two parts:
+- a kaggle competition to predict Airbnb price in New York
+- an implementation of decision tree from scratch (CART.ipynb)
 
-For each part, there are detailed steps in the jupyter notebooks. The content of this readme is similar to the report.
-
----
+For each part, there are detailed steps in the jupyter notebooks. For the convenience of understanding, we show the **description of part II** here.
 
 ---
 
