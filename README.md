@@ -42,7 +42,7 @@ Next we define the `Node` class. The attributes contained in this class are as f
 
 At last we define a `CART` class. The structure of this class is relatively simple, and its role is to pass parameters to the Node class, initialize the root Node, and initialize each recursive function.
 
-## 2.1.2 CART Evaluation
+### 2.1.2 CART Evaluation
 
 In this part, we use the `Iris`, `Wine` and `Breast Cancer Wisconsin` (Diagnostic) datasets that come with the scikit-learn package for classification tasks, and use our own generated five-dimensional data for regression tasks. In each task, we compare the performance (on test set) of the custom CART with the `DecisionTreeClassifier` and `DecisionTreeRegressor` (both with same parameters) in scikit-learn. We will also print the CART structure.
 
@@ -50,7 +50,7 @@ In this part, we use the `Iris`, `Wine` and `Breast Cancer Wisconsin` (Diagnosti
 
 As can be seen the results are almost the same.
 
-## 2.2.1 Evolutionary Hyperparameter Tuning
+### 2.2.1 Evolutionary Hyperparameter Tuning
 
 In this part, we use the evolutionary algorithm to find the optimal parameter combination while avoiding the time-consuming grid search. The logic is as follows:
 1. Input parameter range, for instance the value of `max_depth` can be None, 5, 6, 7, 8, etc.
@@ -61,7 +61,7 @@ In this part, we use the evolutionary algorithm to find the optimal parameter co
 
 Unfortunately, because the dataset inside sklearn is too simple, this function does not bring much improvement. However, based on the experience of using random forest and implementing evolutionary hyperparameter tuning in Kaggel competition in the past, this function can bring huge improvements in complex tasks.
 
-## 2.2.2 CART with Optimized Parameters
+### 2.2.2 CART with Optimized Parameters
 
 In this part we repeat the tasks of 2.1.2, using the evolutionary algorithm to obtain the optimal parameter combination and applying it.
 
